@@ -8,7 +8,7 @@ export const Colors = () => (
   <div style={{ display: 'grid', gap: '12px' }}>
     
     <div style={{ display: 'flex', alignItems: 'center' }}>
-      <div className="bg-primary-soil-50" style={{
+      <div style={{
         width: 40, height: 40, backgroundColor: 'var(--primary-soil-50)',
         borderRadius: 4, marginRight: 8
       }} />

@@ -5,10 +5,10 @@
   "description": "토큰 기반의 디자인시스템을 실제 구현해보기 위한 연습 프로젝트입니다.",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf design-token && style-dictionary build",
+    "build-token": "rm -rf design-token && style-dictionary build",
     "create-sb": "node scripts/generate-foundation-stories.mjs",
     "sb": "storybook dev -p 6006",
-    "build-sb": "storybook build"
+    "build": "npm run build-token && npm run create-sb && storybook build"
   },
   "keywords": [],
   "author": "",
@@ -30,7 +30,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
+    "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
   }
 }
