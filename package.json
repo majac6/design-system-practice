@@ -1,0 +1,36 @@
+{
+  "name": "design-system-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "토큰 기반의 디자인시스템을 실제 구현해보기 위한 연습 프로젝트입니다.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf design-token && style-dictionary build",
+    "create-sb": "node scripts/generate-foundation-stories.mjs",
+    "sb": "storybook dev -p 6006",
+    "build-sb": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.1",
+    "@storybook/addon-a11y": "^9.0.16",
+    "@storybook/addon-docs": "^9.0.16",
+    "@storybook/addon-vitest": "^9.0.16",
+    "@storybook/react-vite": "^9.0.16",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "autoprefixer": "^10.4.21",
+    "playwright": "^1.54.1",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.0.16",
+    "style-dictionary": "^5.0.1",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

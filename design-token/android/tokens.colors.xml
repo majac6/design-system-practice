@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="primary_soil_50">#ffd9d9d9</color>
+  <color name="primary_soil_100">#ffa6a6a6</color>
+  <color name="primary_soil_200">#ff949494</color>
+  <color name="primary_soil_300">#ff868686</color>
+  <color name="primary_soil_400">#ff303030</color>
+  <color name="primary_soil_500">#ff222222</color>
+  <color name="primary_soil_600">#ff0c0c0c</color>
+</resources>

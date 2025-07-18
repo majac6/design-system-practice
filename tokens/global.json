@@ -1,0 +1,110 @@
+{
+  "primary": {
+    "soil": {
+      "50": {
+        "value": "#d9d9d9",
+        "type": "color"
+      },
+      "100": {
+        "value": "#a6a6a6",
+        "type": "color"
+      },
+      "200": {
+        "value": "#949494",
+        "type": "color"
+      },
+      "300": {
+        "value": "#868686",
+        "type": "color"
+      },
+      "400": {
+        "value": "#303030",
+        "type": "color"
+      },
+      "500": {
+        "value": "#222",
+        "type": "color"
+      },
+      "600": {
+        "value": "#0c0c0c",
+        "type": "color"
+      }
+    }
+  },
+  "typo": {
+    "regular": {
+      "headline1": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "48"
+        },
+        "type": "typography"
+      },
+      "headline2": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "36"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "20"
+        },
+        "type": "typography"
+      },
+      "medium": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "16"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "12"
+        },
+        "type": "typography"
+      }
+    },
+    "bold": {
+      "headline1": {
+        "value": {
+          "fontWeight": "600",
+          "fontSize": "48"
+        },
+        "type": "typography"
+      },
+      "headline2": {
+        "value": {
+          "fontWeight": "600",
+          "fontSize": "36"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontWeight": "600",
+          "fontSize": "20"
+        },
+        "type": "typography"
+      },
+      "medium": {
+        "value": {
+          "fontWeight": "600",
+          "fontSize": "16"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontWeight": "600",
+          "fontSize": "12"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}

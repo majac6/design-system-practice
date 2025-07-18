@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import '../design-token/css/_variable.css';
+
+@theme {
+  --primary-soil-50: #d9d9d9;
+  --primary-soil-100: #a6a6a6;
+  --primary-soil-200: #949494;
+  --primary-soil-300: #868686;
+  --primary-soil-400: #303030;
+  --primary-soil-500: #222222;
+  --primary-soil-600: #0c0c0c;
+}

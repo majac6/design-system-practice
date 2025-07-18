@@ -1,0 +1,70 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "design-token/js/",
+      "files": [
+        {
+          "destination": "_variable.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "transforms": ["typography/css/shorthand"],
+      "buildPath": "design-token/css/",
+      "files": [
+        {
+          "destination": "_variable.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "design-token/scss/",
+      "files": [
+        {
+          "destination": "_variable.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "tailwind": {
+      "transformGroup": "js",
+      "buildPath": "design-token/tailwind/",
+      "files": [
+        {
+          "destination": "_variable.json",
+          "format": "json/nested"
+        }
+      ]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "design-token/android/",
+      "files": [
+        {
+          "destination": "tokens.colors.xml",
+          "format": "android/colors"
+        },
+        {
+          "destination": "tokens.dimens.xml",
+          "format": "android/dimens"
+        }
+      ]
+    },
+    "ios-swift": {
+      "transformGroup": "ios-swift",
+      "buildPath": "design-token/ios-swift/",
+      "files": [
+        {
+          "destination": "StyleDictionary+Class.swift",
+          "format": "ios-swift/class.swift"
+        }
+      ]
+    }
+  }
+}

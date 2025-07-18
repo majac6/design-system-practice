@@ -1,0 +1,59 @@
+{
+  "primary": {
+    "soil": {
+      "50": "#d9d9d9",
+      "100": "#a6a6a6",
+      "200": "#949494",
+      "300": "#868686",
+      "400": "#303030",
+      "500": "#222222",
+      "600": "#0c0c0c"
+    }
+  },
+  "typo": {
+    "regular": {
+      "headline1": {
+        "fontWeight": "400",
+        "fontSize": "48"
+      },
+      "headline2": {
+        "fontWeight": "400",
+        "fontSize": "36"
+      },
+      "large": {
+        "fontWeight": "400",
+        "fontSize": "20"
+      },
+      "medium": {
+        "fontWeight": "400",
+        "fontSize": "16"
+      },
+      "small": {
+        "fontWeight": "400",
+        "fontSize": "12"
+      }
+    },
+    "bold": {
+      "headline1": {
+        "fontWeight": "600",
+        "fontSize": "48"
+      },
+      "headline2": {
+        "fontWeight": "600",
+        "fontSize": "36"
+      },
+      "large": {
+        "fontWeight": "600",
+        "fontSize": "20"
+      },
+      "medium": {
+        "fontWeight": "600",
+        "fontSize": "16"
+      },
+      "small": {
+        "fontWeight": "600",
+        "fontSize": "12"
+      }
+    }
+  }
+}
