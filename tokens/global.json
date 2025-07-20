@@ -36,35 +36,35 @@
       "headline1": {
         "value": {
           "fontWeight": "400",
-          "fontSize": "48"
+          "fontSize": "48px"
         },
         "type": "typography"
       },
       "headline2": {
         "value": {
           "fontWeight": "400",
-          "fontSize": "36"
+          "fontSize": "36px"
         },
         "type": "typography"
       },
       "large": {
         "value": {
           "fontWeight": "400",
-          "fontSize": "20"
+          "fontSize": "20px"
         },
         "type": "typography"
       },
       "medium": {
         "value": {
           "fontWeight": "400",
-          "fontSize": "16"
+          "fontSize": "16px"
         },
         "type": "typography"
       },
       "small": {
         "value": {
           "fontWeight": "400",
-          "fontSize": "12"
+          "fontSize": "12px"
         },
         "type": "typography"
       }
@@ -73,35 +73,35 @@
       "headline1": {
         "value": {
           "fontWeight": "600",
-          "fontSize": "48"
+          "fontSize": "48px"
         },
         "type": "typography"
       },
       "headline2": {
         "value": {
           "fontWeight": "600",
-          "fontSize": "36"
+          "fontSize": "36px"
         },
         "type": "typography"
       },
       "large": {
         "value": {
           "fontWeight": "600",
-          "fontSize": "20"
+          "fontSize": "20px"
         },
         "type": "typography"
       },
       "medium": {
         "value": {
           "fontWeight": "600",
-          "fontSize": "16"
+          "fontSize": "16px"
         },
         "type": "typography"
       },
       "small": {
         "value": {
           "fontWeight": "600",
-          "fontSize": "12"
+          "fontSize": "12px"
         },
         "type": "typography"
       }

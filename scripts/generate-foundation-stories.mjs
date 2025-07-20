@@ -20,8 +20,7 @@ if (!fs.existsSync(cssPath)) {
 // CSS 파일 읽기
 const css = fs.readFileSync(cssPath, 'utf-8');
 const colorVars = [];
-const fontSizeVars = [];
-const fontWeightVars = [];
+const typoVars = [];
 
 css.split('\n').forEach(line => {
   const match = line.match(/--([a-zA-Z0-9-_]+):\s*(.+);/);
@@ -31,10 +30,8 @@ css.split('\n').forEach(line => {
 
   if (value.startsWith('#')) {
     colorVars.push({ name, value });
-  } else if (name.startsWith('font-size-')) {
-    fontSizeVars.push({ name, value });
-  } else if (name.startsWith('font-weight-')) {
-    fontWeightVars.push({ name, value });
+  } else if (name.startsWith('typo-')) {
+    typoVars.push({ name, value });
   }
 });
 
@@ -65,5 +62,28 @@ export const Colors = () => (
 
 fs.mkdirSync(path.dirname(colorStoryPath), { recursive: true });
 fs.writeFileSync(colorStoryPath, colorStory);
+
+// Typography 스토리 생성
+const typoStory = `import React from 'react';
+
+export default {
+  title: 'Foundation/Typography',
+};
+
+export const Typography = () => (
+  <div style={{ display: 'grid', gap: '12px' }}>
+    ${typoVars
+      .map(
+        ({ name }) => `
+    <div style={{ font: 'var(--${name})' }}>
+      --${name} - var(--${name})
+    </div>`
+      )
+      .join('\n')}
+  </div>
+);
+`;
+
+fs.writeFileSync(typoStoryPath, typoStory);
 
 console.log('✅ Foundation stories generated (ESM version)');

@@ -14,45 +14,45 @@
     "regular": {
       "headline1": {
         "fontWeight": "400",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "headline2": {
         "fontWeight": "400",
-        "fontSize": "36"
+        "fontSize": "36px"
       },
       "large": {
         "fontWeight": "400",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "medium": {
         "fontWeight": "400",
-        "fontSize": "16"
+        "fontSize": "16px"
       },
       "small": {
         "fontWeight": "400",
-        "fontSize": "12"
+        "fontSize": "12px"
       }
     },
     "bold": {
       "headline1": {
         "fontWeight": "600",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "headline2": {
         "fontWeight": "600",
-        "fontSize": "36"
+        "fontSize": "36px"
       },
       "large": {
         "fontWeight": "600",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "medium": {
         "fontWeight": "600",
-        "fontSize": "16"
+        "fontSize": "16px"
       },
       "small": {
         "fontWeight": "600",
-        "fontSize": "12"
+        "fontSize": "12px"
       }
     }
   }
